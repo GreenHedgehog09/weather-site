@@ -39,18 +39,29 @@ body {
 .form-search {
     margin-top: 5%;
     text-align: center;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .form-search input {
     padding: 4px 10px;
     border: 0;
     font-size: 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+    margin-right: 1%;
+}
 
+.search {
+    flex: 4;
 }
 
 .submit {
     background-color: #1c87c9;
     color: #ffffff;
+    flex: 1;
 }
 
 .submit:active {
@@ -58,6 +69,11 @@ body {
 }
 
 /* Блок отображения погоды */
+.weather-data {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
 .weather {
     background-color: rgb(73, 172, 211);
     border-radius: 10px;
