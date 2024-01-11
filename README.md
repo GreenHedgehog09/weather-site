@@ -1,0 +1,1 @@
+Weather for every day(JS + OpenWeather API)
